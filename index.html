@@ -42,7 +42,6 @@
       //a <div> with a black border and pink background color with the following elements inside of it:
       const div2 = document.createElement('div');
       div2.setAttribute('style','border-style: solid; border-color:black; background-color:pink;');
-      container.appendChild(div2);
 
       //another <h1> that says “I’m in a div”
       let h1 = document.createElement('h1');
@@ -53,6 +52,9 @@
       paragraph = document.createElement('p');
       paragraph.textContent = "ME TOO!";
       div2.appendChild(paragraph);
+
+      //Hint for this one: after creating the div with createElement, append the <h1> and <p> to it before adding it to the container.
+      container.appendChild(div2);
 
 
     </script>

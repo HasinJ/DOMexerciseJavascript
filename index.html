@@ -24,7 +24,12 @@
 
       container.appendChild(content);
 
+      //a <p> with red text that says “Hey I’m red!”
+      const paragraph = document.createElement('p');
+      paragraph.setAttribute('style','color: red;')
+      paragraph.textContent = "Hey I'm red!";
 
+      container.appendChild(paragraph);
 
 
     </script>

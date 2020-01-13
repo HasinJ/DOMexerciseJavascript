@@ -1,1 +1,3 @@
-
+#container{ /*to test whether or not node children followed the same style*/
+  text-align: center;
+}
